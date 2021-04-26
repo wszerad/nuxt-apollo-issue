@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-apollo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
+    "@nuxtjs/composition-api": "^0.23.2",
+    "@vue/apollo-composable": "^4.0.0-alpha.12",
+    "core-js": "^3.9.1",
+    "graphql-tag": "^2.11.0",
+    "nuxt": "^2.15.3"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.3",
+    "@nuxt/typescript-build": "^2.1.0"
+  }
+}
